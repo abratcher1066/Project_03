@@ -4,7 +4,7 @@ const path = require("path")
 const mongoose = require("mongoose");
 
 // -- Requiring our Routes -- //
-const api_routes = require("./server/routes/api_routes");
+const api_routes = require("./routes/api_routes");
 
 // -- CREATE AN `EXPRESS` INSTANCE -- //
 const app = express();
